@@ -1,0 +1,28 @@
+{
+  "name": "tdd-boilerplate",
+  "version": "0.0.1",
+  "description": "A skeleton project giving you all the tools you need to experiment with functions with confidence that they work, outside of a project with a testing framework in place!",
+  "scripts": {
+    "test": "ava --tap 'tests/unit/**/*.spec.js' | tap-spec"
+  },
+  "keywords": [
+    "tdd",
+    "boilerplate",
+    "scratch",
+    "confidence",
+    "testing",
+    "test",
+    "tap",
+    "ava",
+    "tooling"
+  ],
+  "author": "Mark Salvin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.23.0",
+    "tap-spec": "4.1.1"
+  }
+}
